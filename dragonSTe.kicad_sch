@@ -33,23 +33,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 97.79) (xy 177.8 97.79)
+			(xy 165.1 88.9) (xy 177.8 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "084d0a55-e4b4-41a2-bbc1-35b226baf979")
-	)
-	(bus
-		(pts
-			(xy 200.66 76.2) (xy 170.18 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "098c96c0-dc04-4fd3-ac90-1da233b8ffae")
 	)
 	(wire
 		(pts
@@ -133,7 +123,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 92.71) (xy 172.72 53.34)
+			(xy 172.72 83.82) (xy 172.72 53.34)
 		)
 		(stroke
 			(width 0)
@@ -143,7 +133,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 95.25) (xy 175.26 95.25)
+			(xy 165.1 86.36) (xy 175.26 86.36)
 		)
 		(stroke
 			(width 0)
@@ -153,7 +143,7 @@
 	)
 	(bus
 		(pts
-			(xy 200.66 78.74) (xy 200.66 76.2)
+			(xy 170.18 78.74) (xy 170.18 76.2)
 		)
 		(stroke
 			(width 0)
@@ -173,7 +163,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 95.25) (xy 175.26 50.8)
+			(xy 175.26 86.36) (xy 175.26 50.8)
 		)
 		(stroke
 			(width 0)
@@ -193,7 +183,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 97.79) (xy 177.8 48.26)
+			(xy 165.1 114.3) (xy 203.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb74aab-b614-425f-9e33-f693b58da5ed")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.9) (xy 177.8 48.26)
 		)
 		(stroke
 			(width 0)
@@ -273,7 +273,7 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 78.74) (xy 200.66 78.74)
+			(xy 203.2 78.74) (xy 170.18 78.74)
 		)
 		(stroke
 			(width 0)
@@ -303,7 +303,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 92.71) (xy 172.72 92.71)
+			(xy 165.1 83.82) (xy 172.72 83.82)
 		)
 		(stroke
 			(width 0)
@@ -417,7 +417,7 @@
 			)
 		)
 		(pin "~{BUTTON}" input
-			(at 203.2 88.9 180)
+			(at 203.2 83.82 180)
 			(uuid "69c40147-8655-4b7c-9659-e653af5497cb")
 			(effects
 				(font
@@ -427,7 +427,7 @@
 			)
 		)
 		(pin "~{JOY_RH}" input
-			(at 203.2 91.44 180)
+			(at 203.2 86.36 180)
 			(uuid "c8ab2886-8079-4fc4-b03f-a6b5ddf0476a")
 			(effects
 				(font
@@ -437,7 +437,7 @@
 			)
 		)
 		(pin "~{JOY_RL}" input
-			(at 203.2 93.98 180)
+			(at 203.2 88.9 180)
 			(uuid "ac9bf183-9a94-41ac-99b9-efde8b24e6ef")
 			(effects
 				(font
@@ -447,7 +447,7 @@
 			)
 		)
 		(pin "~{JOY_WE}" input
-			(at 203.2 96.52 180)
+			(at 203.2 91.44 180)
 			(uuid "f10f64c1-36b8-4d31-8f10-5dfc2f85b433")
 			(effects
 				(font
@@ -457,7 +457,7 @@
 			)
 		)
 		(pin "~{JOY_WL}" input
-			(at 203.2 99.06 180)
+			(at 203.2 93.98 180)
 			(uuid "e61dfd52-42ee-4e2d-a39c-058e8b79850d")
 			(effects
 				(font
@@ -484,6 +484,126 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "AUDIO" output
+			(at 241.3 114.3 0)
+			(uuid "38543c78-4fa2-4717-998c-9982e55be501")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUDIOS" input
+			(at 203.2 114.3 180)
+			(uuid "c4a2957e-3e15-480c-96c0-f85c742e8ee1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GIL" input
+			(at 203.2 109.22 180)
+			(uuid "9d303115-29cc-40b0-8db3-b08ecd23798d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GIR" input
+			(at 203.2 111.76 180)
+			(uuid "480dbfc2-9566-48e9-a372-9cd4d2d64beb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MICROWIRE_CLK" input
+			(at 203.2 101.6 180)
+			(uuid "dc23ebaa-0ddf-4080-8b4c-62609ec7847c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MICROWIRE_DATA" input
+			(at 203.2 104.14 180)
+			(uuid "86c561f7-a35f-46dc-b90c-a30aafa03dae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{MICROWIRE_EN}" input
+			(at 203.2 99.06 180)
+			(uuid "4a38cfc7-b976-4048-a91a-78011c81e775")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PAD0X}" output
+			(at 241.3 78.74 0)
+			(uuid "f7e73160-a899-4969-a30c-f2d4ccf054a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PAD0Y}" output
+			(at 241.3 81.28 0)
+			(uuid "7d93448a-4b64-4434-ac07-9a66ec7ffa86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PAD1X}" output
+			(at 241.3 83.82 0)
+			(uuid "428a5217-c26b-46e3-a726-c1c78815ed51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PAD1Y}" output
+			(at 241.3 86.36 0)
+			(uuid "d702be77-1685-4447-8781-8c4d7ce8ad59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PAD_RST}" input
+			(at 241.3 88.9 0)
+			(uuid "40396454-029d-4a32-9527-dbfdb4e01c06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -823,7 +943,7 @@
 			)
 		)
 		(pin "D0SEL" output
-			(at 165.1 95.25 0)
+			(at 165.1 86.36 0)
 			(uuid "c4ef1851-5cb6-4afa-80bf-f40831932948")
 			(effects
 				(font
@@ -833,7 +953,7 @@
 			)
 		)
 		(pin "D1SEL" output
-			(at 165.1 97.79 0)
+			(at 165.1 88.9 0)
 			(uuid "22dafc82-53a1-4e20-b405-80b8b639c80f")
 			(effects
 				(font
@@ -843,7 +963,7 @@
 			)
 		)
 		(pin "S0SEL" output
-			(at 165.1 92.71 0)
+			(at 165.1 83.82 0)
 			(uuid "2464e986-87eb-483c-b02e-22dfb55e782a")
 			(effects
 				(font
