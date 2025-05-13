@@ -1,5 +1,6 @@
 *.kicad_prl
 *.lck
+*.bak
 \#auto_saved_files#
 
 /dragonSTe-backups/
