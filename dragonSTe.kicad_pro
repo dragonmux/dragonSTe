@@ -662,6 +662,10 @@
     [
       "4fddf671-e1bf-4c63-ae08-e5f2b64aff0a",
       "DAC + Joysticks"
+    ],
+    [
+      "c7206c05-6723-45c2-9080-55867b906515",
+      "Video"
     ]
   ],
   "text_variables": {}
