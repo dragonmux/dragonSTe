@@ -15248,7 +15248,7 @@
 		(uuid "f47b7ee9-23da-4aee-9126-16acad603d3d")
 	)
 	(hierarchical_label "Sound{DMA}"
-		(shape bidirectional)
+		(shape input)
 		(at 185.42 45.72 180)
 		(effects
 			(font
