@@ -12357,6 +12357,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -12365,6 +12366,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -12373,6 +12375,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12521,6 +12524,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -12529,6 +12533,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -12537,6 +12542,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12716,6 +12722,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -12724,6 +12731,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -12732,6 +12740,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12808,6 +12817,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -12816,6 +12826,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -12824,6 +12835,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12923,7 +12935,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS06"
+		(property "Value" "74LS05"
 			(at 210.82 203.2 0)
 			(effects
 				(font
@@ -12931,7 +12943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 210.82 208.28 0)
 			(effects
 				(font
@@ -12940,7 +12952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc05.pdf"
 			(at 210.82 208.28 0)
 			(effects
 				(font
@@ -12950,6 +12962,33 @@
 			)
 		)
 		(property "Description" "Inverter Open Collect"
+			(at 210.82 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TI"
+			(at 210.82 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74HC05DR"
+			(at 210.82 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "3120437"
 			(at 210.82 208.28 0)
 			(effects
 				(font
@@ -13637,6 +13676,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -13645,6 +13685,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -13653,6 +13694,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13729,6 +13771,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -13737,6 +13780,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -13745,6 +13789,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13821,6 +13866,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -13829,6 +13875,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -13837,6 +13884,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13978,6 +14026,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -13986,6 +14035,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -13994,6 +14044,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14266,6 +14317,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -14274,6 +14326,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -14282,6 +14335,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14488,6 +14542,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -14496,6 +14551,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -14504,6 +14560,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14646,6 +14703,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -14654,6 +14712,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -14662,6 +14721,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14696,7 +14756,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS06"
+		(property "Value" "74LS05"
 			(at 210.82 241.3 0)
 			(effects
 				(font
@@ -14704,7 +14764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 210.82 236.22 0)
 			(effects
 				(font
@@ -14713,7 +14773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc05.pdf"
 			(at 210.82 236.22 0)
 			(effects
 				(font
@@ -14723,6 +14783,33 @@
 			)
 		)
 		(property "Description" "Inverter Open Collect"
+			(at 210.82 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TI"
+			(at 210.82 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74HC05DR"
+			(at 210.82 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "3120437"
 			(at 210.82 236.22 0)
 			(effects
 				(font
@@ -14970,6 +15057,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -14978,6 +15066,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -14986,6 +15075,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -15144,6 +15234,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -15152,6 +15243,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -15160,6 +15252,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -15436,7 +15529,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS06"
+		(property "Value" "74LS05"
 			(at 210.82 215.9 0)
 			(effects
 				(font
@@ -15444,7 +15537,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 210.82 220.98 0)
 			(effects
 				(font
@@ -15453,7 +15546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc05.pdf"
 			(at 210.82 220.98 0)
 			(effects
 				(font
@@ -15463,6 +15556,33 @@
 			)
 		)
 		(property "Description" "Inverter Open Collect"
+			(at 210.82 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TI"
+			(at 210.82 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74HC05DR"
+			(at 210.82 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "3120437"
 			(at 210.82 220.98 0)
 			(effects
 				(font
@@ -15581,6 +15701,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -15589,6 +15710,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -15597,6 +15719,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15933,6 +16056,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -15941,6 +16065,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -15949,6 +16074,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16026,6 +16152,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -16034,6 +16161,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -16042,6 +16170,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16117,6 +16246,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -16125,6 +16255,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -16133,6 +16264,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -16576,7 +16708,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS06"
+		(property "Value" "74LS05"
 			(at 90.17 29.21 0)
 			(effects
 				(font
@@ -16585,7 +16717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 88.9 25.4 0)
 			(effects
 				(font
@@ -16594,7 +16726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc05.pdf"
 			(at 88.9 25.4 0)
 			(effects
 				(font
@@ -16604,6 +16736,33 @@
 			)
 		)
 		(property "Description" "Inverter Open Collect"
+			(at 88.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TI"
+			(at 88.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74HC05DR"
+			(at 88.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "3120437"
 			(at 88.9 25.4 0)
 			(effects
 				(font
@@ -17047,6 +17206,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -17055,6 +17215,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -17063,6 +17224,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17097,7 +17259,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS06"
+		(property "Value" "74LS05"
 			(at 220.98 231.14 0)
 			(effects
 				(font
@@ -17105,7 +17267,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 215.9 228.6 0)
 			(effects
 				(font
@@ -17114,7 +17276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc05.pdf"
 			(at 215.9 228.6 0)
 			(effects
 				(font
@@ -17124,6 +17286,33 @@
 			)
 		)
 		(property "Description" "Inverter Open Collect"
+			(at 215.9 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TI"
+			(at 215.9 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74HC05DR"
+			(at 215.9 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "3120437"
 			(at 215.9 228.6 0)
 			(effects
 				(font
@@ -17576,6 +17765,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -17584,6 +17774,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -17592,6 +17783,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18014,6 +18206,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" ""
@@ -18022,6 +18215,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "OC_FARNELL" ""
@@ -18030,6 +18224,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18266,7 +18461,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS06"
+		(property "Value" "74LS05"
 			(at 210.82 203.2 0)
 			(effects
 				(font
@@ -18274,7 +18469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 210.82 198.12 0)
 			(effects
 				(font
@@ -18283,7 +18478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc05.pdf"
 			(at 210.82 198.12 0)
 			(effects
 				(font
@@ -18293,6 +18488,33 @@
 			)
 		)
 		(property "Description" "Inverter Open Collect"
+			(at 210.82 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TI"
+			(at 210.82 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74HC05DR"
+			(at 210.82 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "3120437"
 			(at 210.82 198.12 0)
 			(effects
 				(font
@@ -19088,7 +19310,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS06"
+		(property "Value" "74LS05"
 			(at 350.52 229.87 0)
 			(effects
 				(font
@@ -19096,7 +19318,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 			(at 350.52 228.6 0)
 			(effects
 				(font
@@ -19105,7 +19327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc05.pdf"
 			(at 350.52 228.6 0)
 			(effects
 				(font
@@ -19115,6 +19337,33 @@
 			)
 		)
 		(property "Description" "Inverter Open Collect"
+			(at 350.52 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TI"
+			(at 350.52 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74HC05DR"
+			(at 350.52 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "3120437"
 			(at 350.52 228.6 0)
 			(effects
 				(font
