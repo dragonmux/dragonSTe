@@ -16802,7 +16802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 72.39 318.77 0)
 			(effects
 				(font
@@ -16811,7 +16811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf"
 			(at 72.39 318.77 0)
 			(effects
 				(font
@@ -16821,6 +16821,33 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 72.39 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 72.39 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HCT14D,653"
+			(at 72.39 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1201304"
 			(at 72.39 318.77 0)
 			(effects
 				(font
@@ -18906,7 +18933,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 243.84 198.12 0)
 			(effects
 				(font
@@ -18915,7 +18942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf"
 			(at 243.84 198.12 0)
 			(effects
 				(font
@@ -18925,6 +18952,33 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 243.84 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 243.84 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HCT14D,653"
+			(at 243.84 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1201304"
 			(at 243.84 198.12 0)
 			(effects
 				(font
@@ -19274,7 +19328,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 254 254 0)
 			(effects
 				(font
@@ -19283,7 +19337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf"
 			(at 254 254 0)
 			(effects
 				(font
@@ -19293,6 +19347,33 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
+			(at 254 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 254 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HCT14D,653"
+			(at 254 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1201304"
 			(at 254 254 0)
 			(effects
 				(font
