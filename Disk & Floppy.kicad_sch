@@ -12943,7 +12943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 210.82 208.28 0)
 			(effects
 				(font
@@ -14764,7 +14764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 210.82 236.22 0)
 			(effects
 				(font
@@ -15537,7 +15537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 210.82 220.98 0)
 			(effects
 				(font
@@ -16717,7 +16717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 88.9 25.4 0)
 			(effects
 				(font
@@ -17267,7 +17267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 215.9 228.6 0)
 			(effects
 				(font
@@ -17826,7 +17826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket"
+		(property "Footprint" "rhais_package-dip:DIP-40_W15.24mm_Socket"
 			(at 78.74 215.9 90)
 			(effects
 				(font
@@ -18008,7 +18008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical"
+		(property "Footprint" "rhais_connector-pinheader:PinHeader_2x17_P2.54mm_Vertical"
 			(at 271.78 127 0)
 			(effects
 				(font
@@ -18469,7 +18469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 210.82 198.12 0)
 			(effects
 				(font
@@ -18938,7 +18938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket"
+		(property "Footprint" "rhais_package-dip:DIP-28_W15.24mm_Socket"
 			(at 152.4 218.44 0)
 			(effects
 				(font
@@ -19318,7 +19318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 350.52 228.6 0)
 			(effects
 				(font
