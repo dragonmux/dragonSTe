@@ -16933,7 +16933,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SOT-23"
 			(at 281.94 58.42 0)
 			(effects
 				(font
@@ -17558,7 +17558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SOT-23"
 			(at 256.54 218.44 0)
 			(effects
 				(font
@@ -18032,7 +18032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SOT-23"
 			(at 281.94 76.2 0)
 			(effects
 				(font
@@ -19745,7 +19745,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SOT-23"
 			(at 281.94 124.46 0)
 			(effects
 				(font
@@ -22267,7 +22267,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SOT-23"
 			(at 281.94 93.98 0)
 			(effects
 				(font

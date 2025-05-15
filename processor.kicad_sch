@@ -10396,6 +10396,16 @@
 		)
 		(uuid "03c38e75-1069-4398-b002-179b981f5234")
 	)
+	(wire
+		(pts
+			(xy 88.9 73.66) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c7d22e-38f1-4bbc-88f5-72ebd7d96224")
+	)
 	(bus
 		(pts
 			(xy 35.56 165.1) (xy 35.56 195.58)
@@ -17706,6 +17716,16 @@
 		)
 		(uuid "ebdbbed0-5634-41da-8668-8070742d0129")
 	)
+	(wire
+		(pts
+			(xy 88.9 50.8) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec096db2-33a0-4d83-828b-989afdeda067")
+	)
 	(bus
 		(pts
 			(xy 287.02 142.24) (xy 287.02 139.7)
@@ -22430,7 +22450,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-dip:DIP-32_W15.24mm_Socket"
 			(at 241.3 203.2 0)
 			(effects
 				(font
@@ -23208,7 +23228,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SOT-23"
 			(at 203.2 45.72 0)
 			(effects
 				(font
@@ -24812,7 +24832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SOT-23"
 			(at 289.56 50.8 0)
 			(effects
 				(font
@@ -28469,7 +28489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-dip:DIP-32_W15.24mm_Socket"
 			(at 190.5 203.2 0)
 			(effects
 				(font
@@ -28942,7 +28962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SOT-23"
 			(at 347.98 45.72 0)
 			(effects
 				(font
@@ -29040,7 +29060,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SOT-23"
 			(at 383.54 48.26 0)
 			(effects
 				(font
@@ -29428,6 +29448,71 @@
 			(project "dragonSTe"
 				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/ee1ee771-c1d0-461a-948a-297a1c42437c"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 88.9 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adb2b03a-7d6d-42dc-94a1-bedc478058e9")
+		(property "Reference" "#PWR0273"
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 88.9 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ccd7ca9-2cf8-402d-8f44-cd0e36ba2953")
+		)
+		(instances
+			(project "dragonSTe"
+				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/ee1ee771-c1d0-461a-948a-297a1c42437c"
+					(reference "#PWR0273")
 					(unit 1)
 				)
 			)
@@ -32020,7 +32105,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SOT-23"
 			(at 236.22 48.26 0)
 			(effects
 				(font
@@ -32511,6 +32596,71 @@
 			(project "dragonSTe"
 				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/ee1ee771-c1d0-461a-948a-297a1c42437c"
 					(reference "#PWR32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f19ef750-0fd3-4325-9cfa-dcd273e53cad")
+		(property "Reference" "#PWR0262"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60e48c73-7cf9-4904-b2b8-7954a7cfa756")
+		)
+		(instances
+			(project "dragonSTe"
+				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/ee1ee771-c1d0-461a-948a-297a1c42437c"
+					(reference "#PWR0262")
 					(unit 1)
 				)
 			)

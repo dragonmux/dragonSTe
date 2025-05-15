@@ -16793,7 +16793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-48_W15.24mm_Socket"
 			(at 177.8 165.1 0)
 			(effects
 				(font
@@ -24922,7 +24922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
+		(property "Footprint" "rhais_package-dip:DIP-24_W15.24mm_Socket"
 			(at 255.27 92.71 0)
 			(effects
 				(font
@@ -26146,7 +26146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
+		(property "Footprint" "rhais_package-dip:DIP-24_W15.24mm_Socket"
 			(at 179.07 92.71 0)
 			(effects
 				(font
