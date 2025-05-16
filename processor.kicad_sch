@@ -23542,7 +23542,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x40"
+		(property "Value" "Cartrige"
 			(at 393.7 180.34 0)
 			(effects
 				(font
@@ -32195,7 +32195,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "30.084988MHz"
+		(property "Value" "32.084988MHz"
 			(at 324.104 48.26 90)
 			(effects
 				(font

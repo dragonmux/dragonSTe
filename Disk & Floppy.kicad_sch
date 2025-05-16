@@ -15306,7 +15306,7 @@
 				)
 			)
 		)
-		(property "Value" "DB19_Socket"
+		(property "Value" "External HDD"
 			(at 165.1 68.58 0)
 			(effects
 				(font
@@ -17462,7 +17462,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_connector-pinheader:PinHeader_1x04_P2.54mm_Vertical"
 			(at 279.4 81.28 0)
 			(effects
 				(font
