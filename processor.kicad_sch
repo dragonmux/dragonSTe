@@ -4472,376 +4472,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Pack04"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN"
-				(at -7.62 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Pack04"
-				(at 5.08 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 6.985 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4 resistor network, parallel topology"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R network parallel topology isolated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Pack04_0_1"
-				(rectangle
-					(start -6.35 -2.413)
-					(end 3.81 2.413)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -5.715 1.905)
-					(end -4.445 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 1.905) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -5.08 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.175 1.905)
-					(end -1.905 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.905) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.635 1.905)
-					(end 0.635 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.905) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.905 1.905)
-					(end 3.175 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.905) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Pack04_1_1"
-				(pin passive line
-					(at -5.08 5.08 270)
-					(length 2.54)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 90)
-					(length 2.54)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "R3.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -7313,6 +6943,376 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "dragonmux:R_Pack04_OddEven"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Pack04_OddEven"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 6.985 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, parallel topology"
+				(at -1.27 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Pack04_OddEven_0_1"
+				(rectangle
+					(start -6.35 -2.413)
+					(end 3.81 2.413)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -5.715 1.905)
+					(end -4.445 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.905) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.175 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 1.905)
+					(end 0.635 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.905 1.905)
+					(end 3.175 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack04_OddEven_1_1"
+				(pin passive line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11328,7 +11328,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 236.22) (xy 33.02 236.22)
+			(xy 25.4 238.76) (xy 33.02 238.76)
 		)
 		(stroke
 			(width 0)
@@ -13148,6 +13148,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 236.22) (xy 33.02 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55860b8b-d91e-4e0e-af49-b625e3196571")
+	)
+	(wire
+		(pts
 			(xy 332.74 177.8) (xy 345.44 177.8)
 		)
 		(stroke
@@ -14665,16 +14675,6 @@
 			(type default)
 		)
 		(uuid "88a21cf7-83d2-4ae3-8f3b-3e07b28a5a57")
-	)
-	(wire
-		(pts
-			(xy 30.48 238.76) (xy 33.02 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88a29e5d-2ab5-4920-9c7a-b8528cb6eca5")
 	)
 	(wire
 		(pts
@@ -19907,7 +19907,7 @@
 		(uuid "aecb4bab-06a4-4e52-a64f-744bb5b77a46")
 	)
 	(label "~{BGACK}"
-		(at 25.4 236.22 0)
+		(at 25.4 238.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20672,7 +20672,7 @@
 	)
 	(hierarchical_label "~{BR}"
 		(shape input)
-		(at 30.48 231.14 180)
+		(at 25.4 236.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20738,7 +20738,7 @@
 	)
 	(hierarchical_label "~{BUS_ERR}"
 		(shape input)
-		(at 30.48 238.76 180)
+		(at 30.48 231.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21002,7 +21002,7 @@
 	)
 	(hierarchical_label "~{HALT}"
 		(shape output)
-		(at 25.4 233.68 180)
+		(at 30.48 233.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21463,7 +21463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-64_W22.86mm_Socket"
+		(property "Footprint" "rhais_package-dip:DIP-64_W22.86mm_Socket"
 			(at 76.2 177.8 0)
 			(effects
 				(font
@@ -24232,7 +24232,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04")
+		(lib_id "dragonmux:R_Pack04_OddEven")
 		(at 137.16 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24275,7 +24275,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 137.16 195.58 0)
+			(at 149.86 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24344,7 +24344,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04")
+		(lib_id "dragonmux:R_Pack04_OddEven")
 		(at 137.16 205.74 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24387,7 +24387,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 137.16 205.74 0)
+			(at 149.86 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25576,8 +25576,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04")
-		(at 137.16 152.4 90)
+		(lib_id "dragonmux:R_Pack04_OddEven")
+		(at 137.16 152.4 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25619,7 +25620,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 137.16 152.4 0)
+			(at 124.46 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25688,8 +25689,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04")
-		(at 137.16 121.92 90)
+		(lib_id "dragonmux:R_Pack04_OddEven")
+		(at 137.16 121.92 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25731,7 +25733,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 137.16 121.92 0)
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26257,8 +26259,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04")
-		(at 137.16 142.24 90)
+		(lib_id "dragonmux:R_Pack04_OddEven")
+		(at 137.16 142.24 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26300,7 +26303,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 137.16 142.24 0)
+			(at 124.46 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26369,7 +26372,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04")
+		(lib_id "dragonmux:R_Pack04_OddEven")
 		(at 137.16 215.9 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26412,7 +26415,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 137.16 215.9 0)
+			(at 149.86 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26481,8 +26484,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04")
-		(at 137.16 132.08 90)
+		(lib_id "dragonmux:R_Pack04_OddEven")
+		(at 137.16 132.08 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26524,7 +26528,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 137.16 132.08 0)
+			(at 124.46 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27075,7 +27079,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04")
+		(lib_id "dragonmux:R_Pack04_OddEven")
 		(at 38.1 233.68 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27118,7 +27122,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 38.1 233.68 0)
+			(at 50.8 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29775,7 +29779,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04")
+		(lib_id "dragonmux:R_Pack04_OddEven")
 		(at 137.16 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29818,7 +29822,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 137.16 185.42 0)
+			(at 149.86 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30077,8 +30081,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04")
-		(at 137.16 228.6 90)
+		(lib_id "dragonmux:R_Pack04_OddEven")
+		(at 137.16 228.6 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30120,7 +30125,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 137.16 228.6 0)
+			(at 124.46 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30989,8 +30994,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04")
-		(at 137.16 172.72 90)
+		(lib_id "dragonmux:R_Pack04_OddEven")
+		(at 137.16 172.72 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31032,7 +31038,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 137.16 172.72 0)
+			(at 124.46 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31361,8 +31367,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04")
-		(at 137.16 162.56 90)
+		(lib_id "dragonmux:R_Pack04_OddEven")
+		(at 137.16 162.56 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31404,7 +31411,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 137.16 162.56 0)
+			(at 124.46 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
