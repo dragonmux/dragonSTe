@@ -809,6 +809,381 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "74xx:74LS74"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LS74"
+				(at -7.62 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "74xx/74hc_hct74.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual D Flip-flop, Set & Reset"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TTL DFF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LS74_1_0"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~{S}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS74_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LS74_2_0"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~{S}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~{R}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS74_2_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LS74_3_0"
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS74_3_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CPU_NXP_68000:68000D"
 			(pin_names
 				(offset 0.762)
@@ -21719,7 +22094,7 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74HC74")
+		(lib_id "74xx:74LS74")
 		(at 259.08 50.8 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -21744,7 +22119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 259.08 50.8 0)
 			(effects
 				(font
@@ -21753,7 +22128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
 			(at 259.08 50.8 0)
 			(effects
 				(font
@@ -21771,7 +22146,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Nexperia"
 			(at 259.08 50.8 0)
 			(effects
 				(font
@@ -21780,7 +22155,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "74HC74D,653"
 			(at 259.08 50.8 0)
 			(effects
 				(font
@@ -21789,7 +22164,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "1201317"
 			(at 259.08 50.8 0)
 			(effects
 				(font
@@ -26153,7 +26528,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 127 -12.7 0)
 			(effects
 				(font
@@ -26162,7 +26537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
 			(at 127 -12.7 0)
 			(effects
 				(font
@@ -26180,7 +26555,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Nexperia"
 			(at 127 -12.7 0)
 			(effects
 				(font
@@ -26189,7 +26564,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "74HC74D,653"
 			(at 127 -12.7 0)
 			(effects
 				(font
@@ -26198,7 +26573,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "1201317"
 			(at 127 -12.7 0)
 			(effects
 				(font
@@ -26774,7 +27149,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS05"
+		(property "Value" "74HS05"
 			(at 121.92 63.5 0)
 			(effects
 				(font
@@ -28261,7 +28636,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS05"
+		(property "Value" "74HS05"
 			(at 121.92 63.5 0)
 			(effects
 				(font
@@ -31131,7 +31506,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 179.07 -12.7 0)
 			(effects
 				(font
@@ -31140,7 +31515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
 			(at 179.07 -12.7 0)
 			(effects
 				(font
@@ -31158,7 +31533,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Nexperia"
 			(at 179.07 -12.7 0)
 			(effects
 				(font
@@ -31167,7 +31542,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "74HC74D,653"
 			(at 179.07 -12.7 0)
 			(effects
 				(font
@@ -31176,7 +31551,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "1201317"
 			(at 179.07 -12.7 0)
 			(effects
 				(font

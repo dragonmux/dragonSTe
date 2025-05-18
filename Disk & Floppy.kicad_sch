@@ -12577,7 +12577,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS74"
+		(property "Value" "74HC74"
 			(at 365.76 229.87 0)
 			(effects
 				(font
@@ -12585,7 +12585,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 365.76 228.6 0)
 			(effects
 				(font
@@ -12594,7 +12594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
 			(at 365.76 228.6 0)
 			(effects
 				(font
@@ -12604,6 +12604,33 @@
 			)
 		)
 		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 365.76 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 365.76 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC74D,653"
+			(at 365.76 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1201317"
 			(at 365.76 228.6 0)
 			(effects
 				(font
@@ -12935,7 +12962,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS05"
+		(property "Value" "74HS05"
 			(at 210.82 203.2 0)
 			(effects
 				(font
@@ -13130,7 +13157,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS244"
+		(property "Value" "74HC244"
 			(at 81.28 80.01 0)
 			(effects
 				(font
@@ -13138,7 +13165,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-20_12.8x7.5mm_P1.27mm"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -13147,7 +13174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -13157,6 +13184,33 @@
 			)
 		)
 		(property "Description" "Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC244D,653"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1201322"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -13447,7 +13501,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS245"
+		(property "Value" "74HC245"
 			(at 96.52 143.51 0)
 			(effects
 				(font
@@ -13455,7 +13509,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-20_12.8x7.5mm_P1.27mm"
 			(at 88.9 127 0)
 			(effects
 				(font
@@ -13464,7 +13518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS245"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT245.pdf"
 			(at 88.9 127 0)
 			(effects
 				(font
@@ -13474,6 +13528,33 @@
 			)
 		)
 		(property "Description" "Octal BUS Transceivers, 3-State outputs"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC245D,653"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1201324"
 			(at 88.9 127 0)
 			(effects
 				(font
@@ -14756,7 +14837,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS05"
+		(property "Value" "74HS05"
 			(at 210.82 241.3 0)
 			(effects
 				(font
@@ -15425,7 +15506,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "74LS74"
+		(property "Value" "74HC74"
 			(at 61.722 161.29 0)
 			(effects
 				(font
@@ -15434,7 +15515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 63.5 154.94 0)
 			(effects
 				(font
@@ -15443,7 +15524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
 			(at 63.5 154.94 0)
 			(effects
 				(font
@@ -15453,6 +15534,33 @@
 			)
 		)
 		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC74D,653"
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1201317"
 			(at 63.5 154.94 0)
 			(effects
 				(font
@@ -15529,7 +15637,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS05"
+		(property "Value" "74HS05"
 			(at 210.82 215.9 0)
 			(effects
 				(font
@@ -16708,7 +16816,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS05"
+		(property "Value" "74HS05"
 			(at 90.17 29.21 0)
 			(effects
 				(font
@@ -17259,7 +17367,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS05"
+		(property "Value" "74HS05"
 			(at 220.98 231.14 0)
 			(effects
 				(font
@@ -18461,7 +18569,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS05"
+		(property "Value" "74HS05"
 			(at 210.82 203.2 0)
 			(effects
 				(font
@@ -18722,7 +18830,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "74LS74"
+		(property "Value" "74HC74"
 			(at 252.222 57.15 0)
 			(effects
 				(font
@@ -18731,7 +18839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 254 50.8 0)
 			(effects
 				(font
@@ -18740,7 +18848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
 			(at 254 50.8 0)
 			(effects
 				(font
@@ -18750,6 +18858,33 @@
 			)
 		)
 		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 254 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 254 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC74D,653"
+			(at 254 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1201317"
 			(at 254 50.8 0)
 			(effects
 				(font
@@ -18826,7 +18961,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS74"
+		(property "Value" "74HC74"
 			(at 381 229.87 0)
 			(effects
 				(font
@@ -18834,7 +18969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 381 228.6 0)
 			(effects
 				(font
@@ -18843,7 +18978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
 			(at 381 228.6 0)
 			(effects
 				(font
@@ -18853,6 +18988,33 @@
 			)
 		)
 		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 381 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 381 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC74D,653"
+			(at 381 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1201317"
 			(at 381 228.6 0)
 			(effects
 				(font
@@ -19076,7 +19238,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "74LS74"
+		(property "Value" "74HC74"
 			(at 226.822 57.15 0)
 			(effects
 				(font
@@ -19085,7 +19247,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 228.6 50.8 0)
 			(effects
 				(font
@@ -19094,7 +19256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf"
 			(at 228.6 50.8 0)
 			(effects
 				(font
@@ -19104,6 +19266,33 @@
 			)
 		)
 		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC74D,653"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1201317"
 			(at 228.6 50.8 0)
 			(effects
 				(font
@@ -19310,7 +19499,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS05"
+		(property "Value" "74HS05"
 			(at 350.52 229.87 0)
 			(effects
 				(font

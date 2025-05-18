@@ -16821,7 +16821,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS04"
+		(property "Value" "74HCT14D"
 			(at 70.866 314.96 0)
 			(effects
 				(font
@@ -17770,7 +17770,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS86"
+		(property "Value" "74HC86"
 			(at 254 261.62 0)
 			(effects
 				(font
@@ -17778,7 +17778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 254 266.7 0)
 			(effects
 				(font
@@ -17787,7 +17787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74ls86.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT86.pdf"
 			(at 254 266.7 0)
 			(effects
 				(font
@@ -17797,6 +17797,33 @@
 			)
 		)
 		(property "Description" "Quad 2-input XOR"
+			(at 254 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 254 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC86D,653"
+			(at 254 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1085331"
 			(at 254 266.7 0)
 			(effects
 				(font
@@ -18564,7 +18591,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS86"
+		(property "Value" "74HC86"
 			(at 279.4 260.35 0)
 			(effects
 				(font
@@ -18572,7 +18599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 279.4 266.7 0)
 			(effects
 				(font
@@ -18581,7 +18608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74ls86.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT86.pdf"
 			(at 279.4 266.7 0)
 			(effects
 				(font
@@ -18591,6 +18618,33 @@
 			)
 		)
 		(property "Description" "Quad 2-input XOR"
+			(at 279.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 279.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC86D,653"
+			(at 279.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1085331"
 			(at 279.4 266.7 0)
 			(effects
 				(font
@@ -18952,7 +19006,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS04"
+		(property "Value" "74HCT14D"
 			(at 246.38 201.93 0)
 			(effects
 				(font
@@ -19179,7 +19233,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS86"
+		(property "Value" "74HC86"
 			(at 90.17 313.69 0)
 			(effects
 				(font
@@ -19187,7 +19241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 90.17 318.77 0)
 			(effects
 				(font
@@ -19196,7 +19250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74ls86.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT86.pdf"
 			(at 90.17 318.77 0)
 			(effects
 				(font
@@ -19206,6 +19260,33 @@
 			)
 		)
 		(property "Description" "Quad 2-input XOR"
+			(at 90.17 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 90.17 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC86D,653"
+			(at 90.17 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1085331"
 			(at 90.17 318.77 0)
 			(effects
 				(font
@@ -19347,7 +19428,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS04"
+		(property "Value" "74HCT14D"
 			(at 255.524 250.19 0)
 			(effects
 				(font
@@ -21858,7 +21939,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS86"
+		(property "Value" "74HC86"
 			(at 279.4 260.35 0)
 			(effects
 				(font
@@ -21866,7 +21947,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
 			(at 279.4 254 0)
 			(effects
 				(font
@@ -21875,7 +21956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74ls86.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT86.pdf"
 			(at 279.4 254 0)
 			(effects
 				(font
@@ -21885,6 +21966,33 @@
 			)
 		)
 		(property "Description" "Quad 2-input XOR"
+			(at 279.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 279.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC86D,653"
+			(at 279.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1085331"
 			(at 279.4 254 0)
 			(effects
 				(font

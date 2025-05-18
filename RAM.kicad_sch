@@ -2604,7 +2604,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS244"
+		(property "Value" "74HC244"
 			(at 81.28 168.91 0)
 			(effects
 				(font
@@ -2612,7 +2612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-20_12.8x7.5mm_P1.27mm"
 			(at 88.9 152.4 0)
 			(effects
 				(font
@@ -2621,7 +2621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf"
 			(at 88.9 152.4 0)
 			(effects
 				(font
@@ -2631,6 +2631,33 @@
 			)
 		)
 		(property "Description" "Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"
+			(at 88.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 88.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC244D,653"
+			(at 88.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1201322"
 			(at 88.9 152.4 0)
 			(effects
 				(font
