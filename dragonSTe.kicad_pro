@@ -599,6 +599,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "URL_TI",
+          "name": "URL_TI",
+          "show": false
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",

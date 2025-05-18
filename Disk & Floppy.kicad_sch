@@ -13165,7 +13165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-20_12.8x7.5mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-20_12.8x7.5mm_P1.27mm"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -13509,7 +13509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-20_12.8x7.5mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-20_12.8x7.5mm_P1.27mm"
 			(at 88.9 127 0)
 			(effects
 				(font

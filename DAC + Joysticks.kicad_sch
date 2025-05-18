@@ -21139,7 +21139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-20_12.8x7.5mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-20_12.8x7.5mm_P1.27mm"
 			(at 139.7 203.2 0)
 			(effects
 				(font
@@ -21522,7 +21522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-16_3.9x9.9mm_P1.27mm"
 			(at 256.54 123.19 0)
 			(effects
 				(font
@@ -21542,6 +21542,42 @@
 		)
 		(property "Description" "DAC0802 8-Bit Digital-to-Analog Converter"
 			(at 256.54 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TI"
+			(at 256.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DAC0802"
+			(at 256.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 256.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL_TI" "https://www.ti.com/product/DAC0802/part-details/DAC0802LCMX/NOPB"
+			(at 256.54 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23260,7 +23296,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Dsub:DSUB-15_Socket_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm"
 			(at 39.37 53.34 0)
 			(effects
 				(font
@@ -26057,7 +26093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-20_12.8x7.5mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-20_12.8x7.5mm_P1.27mm"
 			(at 139.7 50.8 0)
 			(effects
 				(font
@@ -26557,7 +26593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-20_12.8x7.5mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-20_12.8x7.5mm_P1.27mm"
 			(at 139.7 152.4 0)
 			(effects
 				(font
@@ -27378,7 +27414,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Dsub:DSUB-15_Socket_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm"
 			(at 39.37 129.54 0)
 			(effects
 				(font
@@ -28619,7 +28655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-16_3.9x9.9mm_P1.27mm"
 			(at 256.54 59.69 0)
 			(effects
 				(font
@@ -28639,6 +28675,42 @@
 		)
 		(property "Description" "DAC0802 8-Bit Digital-to-Analog Converter"
 			(at 256.54 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TI"
+			(at 256.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DAC0802"
+			(at 256.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL_TI" "https://www.ti.com/product/DAC0802/part-details/DAC0802LCMX/NOPB"
+			(at 256.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 256.54 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29517,7 +29589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-20_12.8x7.5mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-20_12.8x7.5mm_P1.27mm"
 			(at 215.9 127 0)
 			(effects
 				(font
@@ -32130,7 +32202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-20_12.8x7.5mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-20_12.8x7.5mm_P1.27mm"
 			(at 139.7 101.6 0)
 			(effects
 				(font
@@ -34457,7 +34529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-20_12.8x7.5mm_P1.27mm"
+		(property "Footprint" "rhais_package-smd:SO-20_12.8x7.5mm_P1.27mm"
 			(at 215.9 63.5 0)
 			(effects
 				(font
