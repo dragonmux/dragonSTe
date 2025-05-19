@@ -5286,6 +5286,16 @@
 	(bus_alias "DMA"
 		(members "D[0..7]")
 	)
+	(text "In the original STe, FCLK gets one of 4 possible values that\ndepend on the sample rate being spit out the DMA system:\n1.0013MHz, 500.65kHz, 250.35kHz, and 125.15kHz\n\nThese are then ratio 50'd to the cutoffs 20.026kHz, 10.013kHz,\n5.007kHz, and 2.503kHz in the Butterworth filters."
+		(exclude_from_sim no)
+		(at 355.6 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee0a894a-add3-4b5d-8710-b2e726bd4049")
+	)
 	(junction
 		(at 109.22 60.96)
 		(diameter 0)
