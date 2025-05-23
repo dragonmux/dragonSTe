@@ -1358,7 +1358,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_Coaxial"
+		(symbol "Connector:Conn_Coaxial_x2"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1367,14 +1367,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0.254 3.048 0)
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_Coaxial"
+			(property "Value" "Conn_Coaxial_x2"
 				(at 2.921 0 90)
 				(effects
 					(font
@@ -1383,7 +1383,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1392,6 +1392,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1400,7 +1409,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1409,7 +1418,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1418,19 +1427,22 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
+			(symbol "Conn_Coaxial_x2_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -0.508 0)
+						(xy -2.54 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -0.508 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1441,9 +1453,9 @@
 					)
 				)
 				(arc
-					(start 1.778 0)
-					(mid 0.222 -1.8079)
-					(end -1.778 -0.508)
+					(start 1.778 2.54)
+					(mid 0.222 0.7321)
+					(end -1.778 2.032)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1453,9 +1465,33 @@
 					)
 				)
 				(arc
-					(start -1.778 0.508)
-					(mid 0.2221 1.8084)
-					(end 1.778 0)
+					(start 1.778 -2.54)
+					(mid 0.222 -4.3479)
+					(end -1.778 -3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 3.048)
+					(mid 0.2221 4.3484)
+					(end 1.778 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 -2.032)
+					(mid 0.2221 -0.7316)
+					(end 1.778 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1465,7 +1501,7 @@
 					)
 				)
 				(circle
-					(center 0 0)
+					(center 0 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0.2032)
@@ -1477,7 +1513,30 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
+						(xy 0 0.762) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.318)
 					)
 					(stroke
 						(width 0)
@@ -1488,11 +1547,11 @@
 					)
 				)
 			)
-			(symbol "Conn_Coaxial_1_1"
+			(symbol "Conn_Coaxial_x2_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 2.54)
-					(name "In"
+					(name "IN1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1508,9 +1567,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at -5.08 -2.54 0)
 					(length 2.54)
-					(name "Ext"
+					(name "IN2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1518,6 +1577,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "EXT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8131,6 +8208,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 205.74) (xy 396.24 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dee2d65-e6ea-47fe-8d0f-2e73c6bc1bc2")
+	)
+	(wire
+		(pts
 			(xy 228.6 55.88) (xy 241.3 55.88)
 		)
 		(stroke
@@ -9351,7 +9438,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 177.8) (xy 386.08 177.8)
+			(xy 386.08 177.8) (xy 393.7 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9391,7 +9478,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 233.68) (xy 393.7 236.22)
+			(xy 401.32 210.82) (xy 401.32 213.36)
 		)
 		(stroke
 			(width 0)
@@ -10108,16 +10195,6 @@
 			(type default)
 		)
 		(uuid "715d75b5-2952-45c8-81b7-ce535a0c21ac")
-	)
-	(wire
-		(pts
-			(xy 393.7 182.88) (xy 393.7 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71607a12-d6d3-4de6-b6b8-176c41505665")
 	)
 	(wire
 		(pts
@@ -12551,7 +12628,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 228.6) (xy 386.08 228.6)
+			(xy 386.08 228.6) (xy 393.7 228.6)
 		)
 		(stroke
 			(width 0)
@@ -13811,6 +13888,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 200.66) (xy 393.7 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e92f08-06fb-416d-9518-7a114835c577")
+	)
+	(wire
+		(pts
 			(xy 325.12 142.24) (xy 320.04 142.24)
 		)
 		(stroke
@@ -14068,6 +14155,26 @@
 			(type default)
 		)
 		(uuid "ee8bbed9-9be1-46cd-9214-c97c2087bd9a")
+	)
+	(wire
+		(pts
+			(xy 393.7 228.6) (xy 393.7 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec48d00-a33a-47c8-a183-67adb6ad42ae")
+	)
+	(wire
+		(pts
+			(xy 393.7 200.66) (xy 393.7 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef21c6d9-8979-489c-915a-40c9e88d6277")
 	)
 	(wire
 		(pts
@@ -20285,73 +20392,6 @@
 			(project "dragonSTe"
 				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/4fddf671-e1bf-4c63-ae08-e5f2b64aff0a"
 					(reference "R82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 393.7 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31a90b94-5845-44dd-a9b5-ebb62f24f4b0")
-		(property "Reference" "J11"
-			(at 393.954 225.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R Phono"
-			(at 396.621 228.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 393.7 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 393.7 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 393.7 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62cc0e0b-bae9-42ff-b8a6-d8407f83e23a")
-		)
-		(pin "2"
-			(uuid "fdbb86b7-ea7c-4edb-a550-6f210a0cb06b")
-		)
-		(instances
-			(project ""
-				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/4fddf671-e1bf-4c63-ae08-e5f2b64aff0a"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -28616,6 +28656,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial_x2")
+		(at 401.32 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a25c1ebb-f337-48f0-9e11-c6c91c0ee250")
+		(property "Reference" "J10"
+			(at 401.32 197.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Phono L+R"
+			(at 404.241 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rhais_connector-multicomp:PSG01550"
+			(at 401.32 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.farnell.com/datasheets/2826737.pdf"
+			(at 401.32 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 401.32 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Pro Signal"
+			(at 401.32 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PSG01550"
+			(at 401.32 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1280669"
+			(at 401.32 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cc493197-8beb-42ad-90fd-51de6e0ce273")
+		)
+		(pin "2"
+			(uuid "649c958c-905e-4d48-b550-346a16eb0dd3")
+		)
+		(pin "1"
+			(uuid "739a1265-7beb-4a71-80e4-73d9408e1089")
+		)
+		(instances
+			(project ""
+				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/4fddf671-e1bf-4c63-ae08-e5f2b64aff0a"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Opamp_Quad")
 		(at 287.02 127 0)
 		(unit 4)
@@ -34321,72 +34458,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 393.7 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e32660ab-c846-400e-91ba-bb9dd00c7182")
-		(property "Reference" "#PWR0193"
-			(at 393.7 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 393.7 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 393.7 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 393.7 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 393.7 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a65b3f53-8916-4ca8-8a19-42051603a73c")
-		)
-		(instances
-			(project "dragonSTe"
-				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/4fddf671-e1bf-4c63-ae08-e5f2b64aff0a"
-					(reference "#PWR0193")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 393.7 236.22 0)
+		(at 401.32 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34394,7 +34466,7 @@
 		(dnp no)
 		(uuid "e3a51162-1e5d-43e3-a2c5-336239881dcf")
 		(property "Reference" "#PWR0192"
-			(at 393.7 242.57 0)
+			(at 401.32 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34403,7 +34475,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 393.7 240.03 0)
+			(at 401.32 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34411,7 +34483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 393.7 236.22 0)
+			(at 401.32 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34420,7 +34492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 393.7 236.22 0)
+			(at 401.32 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34429,7 +34501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 393.7 236.22 0)
+			(at 401.32 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36546,73 +36618,6 @@
 			(project "dragonSTe"
 				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/4fddf671-e1bf-4c63-ae08-e5f2b64aff0a"
 					(reference "#PWR0163")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 393.7 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe453d22-1a1c-4ea9-b11f-373f342f1fcd")
-		(property "Reference" "J10"
-			(at 393.954 174.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L Phono"
-			(at 396.621 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 393.7 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 393.7 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 393.7 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62cc0e0b-bae9-42ff-b8a6-d8407f83e23b")
-		)
-		(pin "2"
-			(uuid "fdbb86b7-ea7c-4edb-a550-6f210a0cb06c")
-		)
-		(instances
-			(project ""
-				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/4fddf671-e1bf-4c63-ae08-e5f2b64aff0a"
-					(reference "J10")
 					(unit 1)
 				)
 			)
