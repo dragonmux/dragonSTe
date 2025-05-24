@@ -594,6 +594,12 @@
         },
         {
           "group_by": false,
+          "label": "OC_DIGIKEY",
+          "name": "OC_DIGIKEY",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "OC_FARNELL",
           "name": "OC_FARNELL",
           "show": true
