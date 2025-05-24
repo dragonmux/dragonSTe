@@ -22852,7 +22852,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "3M"
 			(at 241.3 203.2 0)
 			(effects
 				(font
@@ -22861,7 +22861,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "4832-6000-CP"
 			(at 241.3 203.2 0)
 			(effects
 				(font
@@ -22870,7 +22870,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "2672309"
 			(at 241.3 203.2 0)
 			(effects
 				(font
@@ -24198,7 +24198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-68_SMD-Socket"
+		(property "Footprint" "rhais_package-plcc:PLCC-68_SMD-Socket"
 			(at 317.5 177.8 0)
 			(effects
 				(font
@@ -24217,6 +24217,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 317.5 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Multicomp"
+			(at 317.5 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MC-68PLCC-SMT"
+			(at 317.5 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "2097224"
 			(at 317.5 177.8 0)
 			(effects
 				(font
@@ -28895,7 +28922,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "3M"
 			(at 190.5 203.2 0)
 			(effects
 				(font
@@ -28904,7 +28931,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "4832-6000-CP"
 			(at 190.5 203.2 0)
 			(effects
 				(font
@@ -28913,7 +28940,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "2672309"
 			(at 190.5 203.2 0)
 			(effects
 				(font

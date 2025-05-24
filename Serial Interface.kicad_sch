@@ -954,6 +954,10 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 210.82 104.14)
+		(uuid "b688253e-e285-4a81-b3e3-09fa1640325c")
+	)
 	(wire
 		(pts
 			(xy 190.5 68.58) (xy 190.5 71.12)
@@ -996,6 +1000,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 96.52) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc332e9-fc1f-49d2-9b65-aed96373c961")
+	)
+	(wire
+		(pts
 			(xy 127 99.06) (xy 127 101.6)
 		)
 		(stroke
@@ -1013,6 +1027,16 @@
 			(type default)
 		)
 		(uuid "20fa7ca7-900a-4c87-9f98-11cad7ffa429")
+	)
+	(wire
+		(pts
+			(xy 241.3 104.14) (xy 241.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b99829-0d2d-4f8b-ad17-e612735a9258")
 	)
 	(wire
 		(pts
@@ -1043,6 +1067,16 @@
 			(type default)
 		)
 		(uuid "2f72f56c-d8fe-4355-9f7e-4deddc7266ea")
+	)
+	(wire
+		(pts
+			(xy 241.3 96.52) (xy 241.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3001f909-5826-48f9-a2f0-5159c922d2af")
 	)
 	(wire
 		(pts
@@ -1106,7 +1140,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 104.14) (xy 213.36 104.14)
+			(xy 210.82 109.22) (xy 213.36 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1196,6 +1230,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 104.14) (xy 170.18 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955be2a8-78f8-4ec0-91d1-9d58f3ef80ee")
+	)
+	(wire
+		(pts
 			(xy 66.04 119.38) (xy 68.58 119.38)
 		)
 		(stroke
@@ -1266,6 +1310,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 104.14) (xy 139.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf28504-167a-4cb7-9a8e-3ca94a03204b")
+	)
+	(wire
+		(pts
 			(xy 228.6 81.28) (xy 228.6 83.82)
 		)
 		(stroke
@@ -1293,6 +1347,16 @@
 			(type default)
 		)
 		(uuid "c4257b6a-b142-411f-b318-eb8a0387a444")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 152.4 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69d814b-1d8d-4890-9f09-b31c309500f1")
 	)
 	(wire
 		(pts
@@ -1396,7 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 104.14) (xy 170.18 104.14)
+			(xy 167.64 109.22) (xy 170.18 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1504,7 +1568,7 @@
 	)
 	(hierarchical_label "RS232_DIR"
 		(shape output)
-		(at 213.36 104.14 0)
+		(at 213.36 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1515,7 +1579,7 @@
 	)
 	(hierarchical_label "UART_DIR"
 		(shape input)
-		(at 167.64 104.14 180)
+		(at 167.64 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1660,6 +1724,167 @@
 			(project "dragonSTe"
 				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/da41d90d-77d6-4e05-9bf5-75a4a2738ae8/e847ed59-495a-4ea2-87ca-b2ab93184a75"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 241.3 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b3ab110-5bef-4566-a8f1-959a5a65db2b")
+		(property "Reference" "C117"
+			(at 241.046 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 241.046 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "rhais_rcl:C0603"
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b08fd39-acde-49e0-ba51-f19245eb1278")
+		)
+		(pin "2"
+			(uuid "a9decb6c-e615-4c1e-b4d7-5b7bc13c8d4a")
+		)
+		(instances
+			(project "dragonSTe"
+				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/da41d90d-77d6-4e05-9bf5-75a4a2738ae8/e847ed59-495a-4ea2-87ca-b2ab93184a75"
+					(reference "C117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 241.3 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cf17add-ade2-4e03-9bbb-332e2c1dd0ac")
+		(property "Reference" "#PWR0282"
+			(at 241.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 241.3 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 241.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f43c5eb0-fd05-4d3e-abf2-5a38f846da35")
+		)
+		(instances
+			(project "dragonSTe"
+				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/da41d90d-77d6-4e05-9bf5-75a4a2738ae8/e847ed59-495a-4ea2-87ca-b2ab93184a75"
+					(reference "#PWR0282")
 					(unit 1)
 				)
 			)
@@ -2047,7 +2272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-16_3.9x9.9mm_P1.27mm"
 			(at 90.17 128.27 0)
 			(effects
 				(font
@@ -2154,6 +2379,102 @@
 			(project "dragonSTe"
 				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/da41d90d-77d6-4e05-9bf5-75a4a2738ae8/e847ed59-495a-4ea2-87ca-b2ab93184a75"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 139.7 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a419dd57-4f76-42b6-aed0-be863efa45cb")
+		(property "Reference" "C116"
+			(at 139.446 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 139.446 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "rhais_rcl:C0603"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c9d9263-0d70-497e-a33b-f863da022829")
+		)
+		(pin "2"
+			(uuid "0f722e91-e34d-46e3-9d91-0ca3dcc3ec6a")
+		)
+		(instances
+			(project "dragonSTe"
+				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/da41d90d-77d6-4e05-9bf5-75a4a2738ae8/e847ed59-495a-4ea2-87ca-b2ab93184a75"
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -2284,6 +2605,71 @@
 			(project "dragonSTe"
 				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/da41d90d-77d6-4e05-9bf5-75a4a2738ae8/e847ed59-495a-4ea2-87ca-b2ab93184a75"
 					(reference "#PWR69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b102c391-3959-48bc-8ff5-d8d777dfb620")
+		(property "Reference" "#PWR0281"
+			(at 139.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bb68863-026f-4a16-9423-a5fa5f843976")
+		)
+		(instances
+			(project "dragonSTe"
+				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/da41d90d-77d6-4e05-9bf5-75a4a2738ae8/e847ed59-495a-4ea2-87ca-b2ab93184a75"
+					(reference "#PWR0281")
 					(unit 1)
 				)
 			)
@@ -2478,7 +2864,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rhais_package-smd:SO-16_3.9x9.9mm_P1.27mm"
 			(at 191.77 128.27 0)
 			(effects
 				(font
@@ -2585,6 +2971,71 @@
 			(project "dragonSTe"
 				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/da41d90d-77d6-4e05-9bf5-75a4a2738ae8/e847ed59-495a-4ea2-87ca-b2ab93184a75"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ced8cf08-65e3-44c2-8822-a24c77c3be3a")
+		(property "Reference" "#PWR0283"
+			(at 241.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcc67f31-589f-4e23-932d-6af378fcdef6")
+		)
+		(instances
+			(project "dragonSTe"
+				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/da41d90d-77d6-4e05-9bf5-75a4a2738ae8/e847ed59-495a-4ea2-87ca-b2ab93184a75"
+					(reference "#PWR0283")
 					(unit 1)
 				)
 			)
@@ -2754,6 +3205,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 152.4 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3076baa-03a2-4325-b183-48a7c3ce62be")
+		(property "Reference" "#PWR0193"
+			(at 152.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74ffba00-fcc4-4a21-bfcc-1a427524246d")
+		)
+		(instances
+			(project "dragonSTe"
+				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/da41d90d-77d6-4e05-9bf5-75a4a2738ae8/e847ed59-495a-4ea2-87ca-b2ab93184a75"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 228.6 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2812,6 +3328,71 @@
 			(project "dragonSTe"
 				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/da41d90d-77d6-4e05-9bf5-75a4a2738ae8/e847ed59-495a-4ea2-87ca-b2ab93184a75"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 139.7 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e834072d-cd70-47fe-b072-bc2f96ec2bcd")
+		(property "Reference" "#PWR0280"
+			(at 139.7 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 139.7 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bffa16d-785f-4c63-80bc-e6f53a408f23")
+		)
+		(instances
+			(project "dragonSTe"
+				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/da41d90d-77d6-4e05-9bf5-75a4a2738ae8/e847ed59-495a-4ea2-87ca-b2ab93184a75"
+					(reference "#PWR0280")
 					(unit 1)
 				)
 			)
