@@ -21584,7 +21584,7 @@
 				)
 			)
 		)
-		(property "Value" "DB25_Pins"
+		(property "Value" "RS-232 Serial"
 			(at 381 149.225 0)
 			(effects
 				(font
@@ -21592,7 +21592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-25_Pins_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm"
+		(property "Footprint" "rhais_connector-dsub:DSUB-25_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
 			(at 381 114.3 0)
 			(effects
 				(font
@@ -21601,7 +21601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.farnell.com/datasheets/3157360.pdf"
 			(at 381 114.3 0)
 			(effects
 				(font
@@ -21619,7 +21619,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Multicomp"
 			(at 381 114.3 0)
 			(effects
 				(font
@@ -21628,7 +21628,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "5504F1-25P-02-03-F1"
 			(at 381 114.3 0)
 			(effects
 				(font
@@ -21637,7 +21637,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "1084699"
 			(at 381 114.3 0)
 			(effects
 				(font
@@ -26990,7 +26990,7 @@
 				)
 			)
 		)
-		(property "Value" "DB25_Socket"
+		(property "Value" "Parallel"
 			(at 381 225.425 0)
 			(effects
 				(font
@@ -26998,7 +26998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-25_Socket_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm"
+		(property "Footprint" "rhais_connector-dsub:DSUB-25_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
 			(at 381 190.5 0)
 			(effects
 				(font
@@ -27007,7 +27007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.farnell.com/datasheets/4291160.pdf"
 			(at 381 190.5 0)
 			(effects
 				(font
@@ -27025,7 +27025,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Multicomp"
 			(at 381 190.5 0)
 			(effects
 				(font
@@ -27034,7 +27034,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "5504F1-25S-02-03-F1"
 			(at 381 190.5 0)
 			(effects
 				(font
@@ -27043,7 +27043,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "1084703"
 			(at 381 190.5 0)
 			(effects
 				(font
