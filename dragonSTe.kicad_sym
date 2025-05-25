@@ -1339,7 +1339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket"
+		(property "Footprint" "rhais_package-dip:DIP-40_W15.24mm_Socket"
 			(at 2.54 0 90)
 			(effects
 				(font
@@ -1929,7 +1929,7 @@
 						)
 					)
 				)
-				(number "28"
+				(number "26"
 					(effects
 						(font
 							(size 1.27 1.27)
