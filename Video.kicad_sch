@@ -18532,7 +18532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 238.76 227.33 90)
 			(effects
 				(font
@@ -18541,7 +18541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/1n4148ws-d.pdf"
 			(at 238.76 227.33 90)
 			(effects
 				(font
@@ -18559,7 +18559,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Onsemi"
 			(at 238.76 227.33 0)
 			(effects
 				(font
@@ -18568,7 +18568,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N914BWS"
 			(at 238.76 227.33 0)
 			(effects
 				(font
@@ -18577,7 +18577,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "2453274"
 			(at 238.76 227.33 0)
 			(effects
 				(font
@@ -18947,7 +18947,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 238.76 220.98 90)
 			(effects
 				(font
@@ -18956,7 +18956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/1n4148ws-d.pdf"
 			(at 238.76 220.98 90)
 			(effects
 				(font
@@ -18974,7 +18974,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Onsemi"
 			(at 238.76 220.98 0)
 			(effects
 				(font
@@ -18983,7 +18983,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N914BWS"
 			(at 238.76 220.98 0)
 			(effects
 				(font
@@ -18992,7 +18992,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "2453274"
 			(at 238.76 220.98 0)
 			(effects
 				(font
