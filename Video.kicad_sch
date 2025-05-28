@@ -20582,136 +20582,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS04")
-		(at 243.84 198.12 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d81c452-a08c-472d-a80c-36f551c2266c")
-		(property "Reference" "U13"
-			(at 242.824 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HCT14D"
-			(at 246.38 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
-			(at 243.84 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf"
-			(at 243.84 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 243.84 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Nexperia"
-			(at 243.84 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "74HCT14D,653"
-			(at 243.84 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" "1201304"
-			(at 243.84 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "558708a4-729c-405c-a84b-c756b6d207b9")
-		)
-		(pin "10"
-			(uuid "01fa0819-c0d7-4454-9249-a9cbdcbb95d6")
-		)
-		(pin "11"
-			(uuid "90f6e6df-da12-464b-a8dd-dbcdd540131b")
-		)
-		(pin "8"
-			(uuid "198312fa-387f-46ef-8145-b8665c172b20")
-		)
-		(pin "7"
-			(uuid "cfec4fd6-aa0c-4397-a737-5ea101d51794")
-		)
-		(pin "13"
-			(uuid "e1000e07-4025-49b3-b80c-150a7df20f13")
-		)
-		(pin "14"
-			(uuid "f94c4d6b-8ff3-4a29-b0fd-847c4063e300")
-		)
-		(pin "4"
-			(uuid "d0ecfaae-8919-434f-889d-31e50b406d0d")
-		)
-		(pin "9"
-			(uuid "02d9ea39-5256-40d1-b916-eb8fca1ac83f")
-		)
-		(pin "2"
-			(uuid "68678be5-0191-41d2-8437-62e93e168d6f")
-		)
-		(pin "6"
-			(uuid "34741f9e-0836-4b8d-832d-cd5597ff9bf0")
-		)
-		(pin "3"
-			(uuid "2999a0e9-bd6d-4e00-8ff3-a25037ade843")
-		)
-		(pin "5"
-			(uuid "fb749dab-3960-4030-87ff-8be412b4a142")
-		)
-		(pin "1"
-			(uuid "f1da45b7-7e2a-4bc1-bd94-b4a8c72067fe")
-		)
-		(instances
-			(project "dragonSTe"
-				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/c7206c05-6723-45c2-9080-55867b906515"
-					(reference "U13")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 284.48 48.26 180)
 		(unit 1)
@@ -23093,6 +22963,136 @@
 			(project "dragonSTe"
 				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/c7206c05-6723-45c2-9080-55867b906515"
 					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 243.84 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc7186db-c0a4-47ba-bdc6-59cedc49a537")
+		(property "Reference" "U13"
+			(at 242.824 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HCT14D"
+			(at 247.65 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rhais_package-smd:SO-14_3.9x8.65mm_P1.27mm"
+			(at 243.84 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf"
+			(at 243.84 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 243.84 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 243.84 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HCT14D,653"
+			(at 243.84 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1201304"
+			(at 243.84 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "558708a4-729c-405c-a84b-c756b6d207b9")
+		)
+		(pin "10"
+			(uuid "01fa0819-c0d7-4454-9249-a9cbdcbb95d6")
+		)
+		(pin "11"
+			(uuid "90f6e6df-da12-464b-a8dd-dbcdd540131b")
+		)
+		(pin "8"
+			(uuid "198312fa-387f-46ef-8145-b8665c172b20")
+		)
+		(pin "7"
+			(uuid "cfec4fd6-aa0c-4397-a737-5ea101d51794")
+		)
+		(pin "13"
+			(uuid "e1000e07-4025-49b3-b80c-150a7df20f13")
+		)
+		(pin "14"
+			(uuid "f94c4d6b-8ff3-4a29-b0fd-847c4063e300")
+		)
+		(pin "4"
+			(uuid "4eb50db8-e1b7-48dc-8620-6845116e7c50")
+		)
+		(pin "9"
+			(uuid "02d9ea39-5256-40d1-b916-eb8fca1ac83f")
+		)
+		(pin "2"
+			(uuid "fa9b3a0f-a849-4f95-8dd4-04c510db2e32")
+		)
+		(pin "6"
+			(uuid "34741f9e-0836-4b8d-832d-cd5597ff9bf0")
+		)
+		(pin "3"
+			(uuid "e770cef8-2fa3-476b-b1ba-70488e6b74aa")
+		)
+		(pin "5"
+			(uuid "fb749dab-3960-4030-87ff-8be412b4a142")
+		)
+		(pin "1"
+			(uuid "ea7022cd-74d7-465b-9756-fbffe683817e")
+		)
+		(instances
+			(project "dragonSTe"
+				(path "/6cc81c6b-09a2-4492-8ca2-d80a5c796e77/c7206c05-6723-45c2-9080-55867b906515"
+					(reference "U13")
 					(unit 1)
 				)
 			)
