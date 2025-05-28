@@ -596,7 +596,7 @@
           "group_by": false,
           "label": "OC_DIGIKEY",
           "name": "OC_DIGIKEY",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
