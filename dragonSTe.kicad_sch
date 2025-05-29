@@ -3799,16 +3799,6 @@
 				(justify right)
 			)
 		)
-		(pin "CCLK" output
-			(at 88.9 55.88 0)
-			(uuid "fc03fe0a-0b04-446c-b826-4e9b008eb52c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CLK8" input
 			(at 50.8 55.88 180)
 			(uuid "753bf54b-8579-4911-8a46-348ada31589b")

@@ -15397,7 +15397,7 @@
 		)
 		(uuid "a234cb9e-f2cb-4d81-b832-c34f121c9ce2")
 	)
-	(label "MC"
+	(label "MCLK"
 		(at 195.58 58.42 0)
 		(effects
 			(font
@@ -15637,7 +15637,7 @@
 		)
 		(uuid "cd368cbc-fec7-4654-9195-a55a046089c6")
 	)
-	(label "MC"
+	(label "MCLK"
 		(at 373.38 60.96 180)
 		(effects
 			(font
@@ -23069,7 +23069,7 @@
 			(uuid "f94c4d6b-8ff3-4a29-b0fd-847c4063e300")
 		)
 		(pin "4"
-			(uuid "4eb50db8-e1b7-48dc-8620-6845116e7c50")
+			(uuid "4eb50db8-e1b7-48dc-8620-6845116e7c52")
 		)
 		(pin "9"
 			(uuid "02d9ea39-5256-40d1-b916-eb8fca1ac83f")
@@ -23081,7 +23081,7 @@
 			(uuid "34741f9e-0836-4b8d-832d-cd5597ff9bf0")
 		)
 		(pin "3"
-			(uuid "e770cef8-2fa3-476b-b1ba-70488e6b74aa")
+			(uuid "e770cef8-2fa3-476b-b1ba-70488e6b74ac")
 		)
 		(pin "5"
 			(uuid "fb749dab-3960-4030-87ff-8be412b4a142")
