@@ -17242,7 +17242,8 @@
 	)
 	(symbol
 		(lib_id "dragonmux:R_Pack04_OddEven")
-		(at 111.76 127 90)
+		(at 111.76 127 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17284,7 +17285,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 124.46 128.27 0)
+			(at 99.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18413,7 +18414,8 @@
 	)
 	(symbol
 		(lib_id "dragonmux:R_Pack04_OddEven")
-		(at 111.76 116.84 90)
+		(at 111.76 116.84 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18455,7 +18457,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 124.46 118.11 0)
+			(at 99.06 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
