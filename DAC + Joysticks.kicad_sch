@@ -24545,7 +24545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+		(property "Footprint" "rhais_connector-dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
 			(at 39.37 53.34 0)
 			(effects
 				(font
@@ -28830,7 +28830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+		(property "Footprint" "rhais_connector-dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
 			(at 39.37 129.54 0)
 			(effects
 				(font

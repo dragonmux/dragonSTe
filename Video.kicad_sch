@@ -2656,202 +2656,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NPN"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NPN"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "NPN bipolar junction transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BJT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NPN_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NPN_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -7207,6 +7011,199 @@
 						)
 					)
 					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "dragonmux:Q_NPN_BEC"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NPN_BEC"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN bipolar junction transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NPN_BEC_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_NPN_BEC_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -18585,7 +18582,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN")
+		(lib_id "dragonmux:Q_NPN_BEC")
 		(at 276.86 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18619,7 +18616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf"
 			(at 276.86 60.96 0)
 			(effects
 				(font
@@ -18637,7 +18634,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Nexperia"
 			(at 276.86 60.96 0)
 			(effects
 				(font
@@ -18646,7 +18643,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MMBT3904,215"
 			(at 276.86 60.96 0)
 			(effects
 				(font
@@ -18655,7 +18652,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "1757935"
 			(at 276.86 60.96 0)
 			(effects
 				(font
@@ -18664,13 +18661,13 @@
 				(hide yes)
 			)
 		)
-		(pin "B"
+		(pin "1"
 			(uuid "d100ac6e-65e0-46f0-968b-f1bf388427c7")
 		)
-		(pin "C"
+		(pin "3"
 			(uuid "7c100fee-dfe2-46dd-9596-1483643216b8")
 		)
-		(pin "E"
+		(pin "2"
 			(uuid "6f560fa5-068a-496f-9702-4441982266dc")
 		)
 		(instances
@@ -19237,7 +19234,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN")
+		(lib_id "dragonmux:Q_NPN_BEC")
 		(at 251.46 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19271,7 +19268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf"
 			(at 251.46 220.98 0)
 			(effects
 				(font
@@ -19289,7 +19286,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Nexperia"
 			(at 251.46 220.98 0)
 			(effects
 				(font
@@ -19298,7 +19295,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MMBT3904,215"
 			(at 251.46 220.98 0)
 			(effects
 				(font
@@ -19307,7 +19304,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "1757935"
 			(at 251.46 220.98 0)
 			(effects
 				(font
@@ -19316,13 +19313,13 @@
 				(hide yes)
 			)
 		)
-		(pin "B"
+		(pin "1"
 			(uuid "dfcad450-b217-4075-8482-bc66362de6b4")
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "e3abb936-791d-43ff-9cd1-cc185f77b841")
 		)
-		(pin "E"
+		(pin "3"
 			(uuid "64ec78f4-3ac9-4ae0-852a-bf4bef9858b3")
 		)
 		(instances
@@ -19738,7 +19735,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN")
+		(lib_id "dragonmux:Q_NPN_BEC")
 		(at 276.86 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19772,7 +19769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf"
 			(at 276.86 78.74 0)
 			(effects
 				(font
@@ -19790,7 +19787,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Nexperia"
 			(at 276.86 78.74 0)
 			(effects
 				(font
@@ -19799,7 +19796,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MMBT3904,215"
 			(at 276.86 78.74 0)
 			(effects
 				(font
@@ -19808,7 +19805,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "1757935"
 			(at 276.86 78.74 0)
 			(effects
 				(font
@@ -19817,13 +19814,13 @@
 				(hide yes)
 			)
 		)
-		(pin "B"
+		(pin "1"
 			(uuid "25288a8c-365b-4e45-8652-28e67f991807")
 		)
-		(pin "C"
+		(pin "3"
 			(uuid "9f5a7635-49c1-4461-b230-f81a8c1da658")
 		)
-		(pin "E"
+		(pin "2"
 			(uuid "5c489b90-4acd-42e2-a30e-31a75ab385ac")
 		)
 		(instances
@@ -21536,7 +21533,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN")
+		(lib_id "dragonmux:Q_NPN_BEC")
 		(at 276.86 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21570,7 +21567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf"
 			(at 276.86 127 0)
 			(effects
 				(font
@@ -21588,7 +21585,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Nexperia"
 			(at 276.86 127 0)
 			(effects
 				(font
@@ -21597,7 +21594,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MMBT3904,215"
 			(at 276.86 127 0)
 			(effects
 				(font
@@ -21606,7 +21603,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "1757935"
 			(at 276.86 127 0)
 			(effects
 				(font
@@ -21615,13 +21612,13 @@
 				(hide yes)
 			)
 		)
-		(pin "B"
+		(pin "3"
 			(uuid "f124872b-2e03-429e-9dbb-087f4005a3f6")
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "1081a881-9d63-4e25-9183-6305619bd106")
 		)
-		(pin "E"
+		(pin "1"
 			(uuid "a01d3662-6511-4a24-a292-9bafcfa4a877")
 		)
 		(instances
@@ -23881,7 +23878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+		(property "Footprint" "rhais_connector-dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
 			(at 331.47 154.94 0)
 			(effects
 				(font
@@ -24794,7 +24791,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN")
+		(lib_id "dragonmux:Q_NPN_BEC")
 		(at 276.86 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24828,7 +24825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf"
 			(at 276.86 96.52 0)
 			(effects
 				(font
@@ -24846,7 +24843,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "Nexperia"
 			(at 276.86 96.52 0)
 			(effects
 				(font
@@ -24855,7 +24852,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MMBT3904,215"
 			(at 276.86 96.52 0)
 			(effects
 				(font
@@ -24864,7 +24861,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "1757935"
 			(at 276.86 96.52 0)
 			(effects
 				(font
@@ -24873,13 +24870,13 @@
 				(hide yes)
 			)
 		)
-		(pin "B"
+		(pin "2"
 			(uuid "63406efc-05c4-4d75-abd6-326e79a6c9c3")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "633486d7-3c4f-485b-8948-09355e7a998d")
 		)
-		(pin "E"
+		(pin "3"
 			(uuid "a2039a0e-9111-4c02-b19d-a3c4eb1a1b8e")
 		)
 		(instances
